@@ -1,0 +1,24 @@
+.intro{
+    background-color: white;
+    width: 100 vw;
+    height: calc(100vh - 70px);
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: row;
+    .left{
+        flex: 0.5;
+        background-color:red;
+        .imageContainer{
+            img{
+                height:150%;
+
+            }
+        }
+        
+    }
+    .right{
+        flex: 0.5;
+        background-color: blue;
+    }
+
+}
