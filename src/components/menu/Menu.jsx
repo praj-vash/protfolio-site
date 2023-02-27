@@ -14,7 +14,7 @@ export default function Menu({classnm, handlehamburger}) {
                 <a href="#works">Works</a>
             </li>
             <li onClick={handlehamburger}>
-                <a href="#testimonials">Testimonials</a>
+                <a href="#testimonial">Testimonials</a>
             </li>
             <li onClick={handlehamburger}>
                 <a href="#contact">Contact</a>
