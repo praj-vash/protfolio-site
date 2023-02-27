@@ -7,15 +7,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    // justify-content: center;
     h1{
         font-size:  90px;
+        @include mobile{
+            font-size: 30px;
+        }
     }
     ul{
         display: flex;
         padding: 0;
         margin: 20px;
         list-style: none;
+        @include mobile{
+            flex-wrap: wrap;
+            // align-items: center;
+            justify-content: center;
+            li{
+                margin: 0px;
+                font-size: 15px;
+            }
+
+        }
     }
     .container{
         width: 70%;
@@ -23,6 +35,9 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        @include mobile{
+            width: 100%;
+        }
         .item{
             width: 300px;
             height: 230px;
@@ -36,6 +51,10 @@
             position: relative;
             transition: all 0.5s ease;
             cursor: pointer;
+            @include mobile{
+                width: 150px;
+                height: 140px;
+            }
             h3{
                 position: absolute;
                 font-size: 35px;

@@ -1,4 +1,5 @@
 import './intro.scss'
+ 
 import { IoIosArrowDown} from "react-icons/io";
 import { init } from 'ityped'
 import { useEffect, useRef } from 'react';
