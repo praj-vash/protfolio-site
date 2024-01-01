@@ -17,7 +17,7 @@ export default function Portfolio() {
       case 'Mobile App': 
         setData(mobilePortfolio);
         break;
-      case 'Design': 
+      case 'Backend': 
         setData(designPortfolio);
         break;
       case 'Branding': 
