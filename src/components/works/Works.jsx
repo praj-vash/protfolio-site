@@ -28,7 +28,7 @@ export default function Works() {
     {
       id: "3",
       icon: "writing",
-      title: "Branding",
+      title: "Machine Learning",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
